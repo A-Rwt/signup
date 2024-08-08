@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(asset/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     
+     transition: all 0.5s ease-in-out;
+    
+    
+  }
+  h1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    text-transform: uppercase;
+    color: aliceblue;
+   
+   
+  }
+  
+  .form-container{
+   position: relative;
+   height: 600px;
+   width: 450px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: transparent;
+   backdrop-filter: blur(10px);
+   border-radius: 10%;
+   border: 3px double #f2f1f1;
+ 
+  }
+
+  .container{
+   
+ padding: 0px 30px;
+    
+  }
+
+  .container label{
+    color:aliceblue;
+    margin: 10px 0 0 1px;
+  }
+ .container input{
+ outline: none;
+ margin: 0 0 20px 0;
+ background-color: #c6c6c661;
+ border: none;
+ padding: 10px 0px;
+ width: 100%;
+ border-radius: 8px;
+  }
+   input::placeholder{
+    color: rgb(206, 206, 206);
+   }
+ 
+  input:hover::placeholder{
+    color: transparent;
+    transition: all 0.6s ease-in-out;
+  }
+   input:focus {
+  
+  background-color: #f2f1f1;
+  transition: all 0.3s ease-in-out;
+  }
+
+  
+
+  .container button{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: snow;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.758);
+
+  }
+  .container button:hover{
+    outline: 1px solid rgb(136, 136, 136);
+  }
+ p{
+  font-size:16px;
+  color: #dadada;
+ }
