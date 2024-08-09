@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/p2.html"
+to = "/index.html"
 status = 200
